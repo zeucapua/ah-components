@@ -1,0 +1,17 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import DynamicSelect from "../components/DynamicSelect.astro";
+---
+
+<SiteLayout title="Astro HTMX Component Library">
+  <section class="text-center flex flex-col gap-4">
+    <h1 class="text-3xl font-bold">Astro HTMX Component Library</h1>
+    <p class="text-xl font-bold">
+      A collection of components built with Astro components and HTMX called page partials
+    </p>
+  </section>
+
+  <section class="flex justify-center gap-4 flex-wrap">
+    <DynamicSelect />
+  </section>
+</SiteLayout>
